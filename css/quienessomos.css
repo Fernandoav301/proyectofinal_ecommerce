@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --VeryDarkBlue: hsl(0, 0%, 100%);
+  --DarkDesaturatedBlue: #034574;
+  --White: hsl(0, 0%, 100%);
+  --SlightlyTransparentP: hsla(0, 0%, 100%, 0.75);
+  --SlightlyTransparentS: hsla(0, 0%, 100%, 0.6);
+  --Layer: rgba(39, 62, 163, 0.349);
+}
+body{
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--VeryDarkBlue);
+}
+main{
+  height: 782px;
+  width: 328px;
+  background-color: var(--DarkDesaturatedBlue);
+  margin: 88px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/*-------------Section 1 ---------------*/
+.image{
+  background-image: url(../images/modelo.png);
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+}
+#layer{
+  background-color: var(--Layer);
+  height: 100%;
+  width: 100%;
+}
+/*-------------Section 2 ---------------*/
+.section2{
+  padding: 40px 33px;
+  text-align: center;
+}
+h1{
+  color: var(--White);
+  font-size: 1.8em;
+  font-family: 'Inter', sans-serif;
+  height: 115px;
+}
+span{
+  color: var(--SoftViolet);
+}
+.text p{
+  color: var(--SlightlyTransparentP);
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  line-height: 25px;
+  height: 137px;
+}
+
+
+
+/*-----------------MEDIA QUERIES---------------------*/
+@media screen and (min-width: 1200px){
+  main{
+    width: 1110px;
+    height: 448px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 178px auto;
+  }
+  .image{
+    width: 540px;
+    height: 100%;
+    background-image: url(../images/modelo.png);
+  }
+  .section2{
+    padding: 75px 70px;
+    text-align: left;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+  p{
+    margin-right: 70px;
+  }
+  .stats{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+  }
+}
