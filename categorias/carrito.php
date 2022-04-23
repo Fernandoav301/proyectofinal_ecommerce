@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/471a905cb1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/menu.css">
-    <script defer src="js/index.js"></script>
+    <script defer src="../js/index.js"></script>
     <title>Mis compras</title>
     <style>
       hr {
@@ -124,7 +124,7 @@ if(isset($_SESSION["carrito"])){
        
 
 }else{
-    echo "<script>alert('El carrito esta vacio');</script>";
+    echo "<script>alert('El carrito esta vacio');</scrip>";
     ?>
     <div class="regresar"> 
     <a href="./bienvenida.php">Regresar</a>

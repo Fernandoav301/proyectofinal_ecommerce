@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <!--Icon-Font-->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script defer src="../js/index.js"></script>
+
 </head>
 <body>
     <!-- menu principal-->

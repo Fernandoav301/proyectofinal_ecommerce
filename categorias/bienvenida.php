@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/categorias.css">
-    <script defer src="js/index.js"></script>
+    <script defer src="../js/index.js"></script>
     <title>Fashionstyle</title>
     <style>
       .visitas h3{
