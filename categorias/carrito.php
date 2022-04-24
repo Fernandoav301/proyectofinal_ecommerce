@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -97,7 +100,6 @@
      
      <section>
      <?php
-session_start();
 
 $total=0;
 
