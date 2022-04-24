@@ -121,16 +121,14 @@ if(isset($_SESSION["carrito"])){
 
        
 
-       
-
-}else{
-    echo "<script>alert('El carrito esta vacio');</scrip>";
-    ?>
-    <div class="regresar"> 
-    <a href="./bienvenida.php">Regresar</a>
-    </div>
-    <?php
-}
+    }else{
+      echo "<script>alert('El carrito esta vacío');</script>";
+      ?>
+       <div class="regresar"><a href="./bienvenida.php">Regresar</a></div> 
+      <?php
+    
+    }
+    
 if(isset($_REQUEST["vaciar"])){
     session_destroy();
     header("Location:carrito.php");
